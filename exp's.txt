@@ -1,0 +1,2 @@
+1-write a program for window's in javascript and its objects
+2-desigin an application using the node.js and config node

@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #e0f7fa;
     font-family: Arial, sans-serif;
@@ -7,8 +12,8 @@ form {
     background-color: #ffffff;
     border: 5px solid #deb3b3;
     height: 620px;
-    border-radius: 10px;
-    padding: 60px;
+    border-radius: 2px;
+    padding: 30px;
     padding-top: auto;
     width: 300px;
     margin: 25px auto;
@@ -17,7 +22,8 @@ form {
 
 .name-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .name-field {
@@ -37,7 +43,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 92%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
