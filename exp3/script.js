@@ -3,7 +3,6 @@ document.getElementById('contact-form').addEventListener('submit', handleFormSub
 function handleFormSubmit(event) {
     event.preventDefault();
 
-    // Get form data
     const firstName = document.getElementById('first-name').value;
     const lastName = document.getElementById('last-name').value;
     const email = document.getElementById('email').value;
@@ -11,7 +10,6 @@ function handleFormSubmit(event) {
     const message = document.getElementById('message').value;
     const consent = document.getElementById('consent').checked ? 'Yes' : 'No';
 
-    // Display form data
     displayFormData(firstName, lastName, email, queryType, message, consent);
 }
 
