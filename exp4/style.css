@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Saria', sans-serif;
+    color:  grey;
 }
 
 body {
@@ -19,6 +21,11 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+    background-color: cadetblue;
+}
+
+h1 {
+    color: whitesmoke;
 }
 
 .lower{
