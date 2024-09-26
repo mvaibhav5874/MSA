@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #d9c5d5;
+  background-color: #9d98c6;
   padding: 20px;
   text-align: center;
 }
@@ -15,7 +15,7 @@ h1 {
 }
 
 nav {
-  background-color: #aae688;
+  background-color: #000000;
   padding: 10px;
 }
 
@@ -33,7 +33,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: rgb(222, 69, 69);
+  color: rgb(252, 254, 255);
 }
 
 main {
@@ -47,7 +47,7 @@ img {
 }
 
 footer {
-  background-color: #472e2e;
+  background-color: #5fcabd;
   padding: 10px;
   text-align: center;
 }

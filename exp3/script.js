@@ -10,6 +10,7 @@ function handleFormSubmit(event) {
     const message = document.getElementById('message').value;
     const consent = document.getElementById('consent').checked ? 'Yes' : 'No';
 
+    
     displayFormData(firstName, lastName, email, queryType, message, consent);
 }
 
